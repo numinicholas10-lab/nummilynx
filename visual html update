@@ -1,0 +1,18 @@
+<!-- Nummi Lynx AI & Analysis Dashboard -->
+<div class="nummi-dashboard" style="background: #121620; color: #fff; padding: 20px; border-radius: 8px; font-family: sans-serif; max-width: 600px; margin: 20px auto;">
+    <h3 style="color: #4e9af1; margin-top: 0; border-bottom: 1px solid #232d42; padding-bottom: 10px;">Nummi Lynx Match Analyzer</h3>
+    
+    <!-- Real-time Last Digit Distribution -->
+    <div id="digit-bars-container" style="margin-bottom: 20px;">
+        <p style="font-size: 12px; color: #8a99ad;">Real-time Frequency (Last 100 Ticks):</p>
+        <div id="analysis-bars"><!-- Bars injected by JavaScript --></div>
+    </div>
+
+    <!-- AI Intelligence Panel -->
+    <div id="ai-panel" style="background: #1b2230; padding: 15px; border-radius: 6px; border-left: 4px solid #ffcc00;">
+        <span style="font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: #ffcc00; font-weight: bold;">Lynx AI Engine</span>
+        <div id="ai-status" style="font-size: 18px; font-weight: bold; margin: 5px 0;">Scanning market patterns...</div>
+        <div id="ai-confidence" style="font-size: 12px; color: #a0aec0;">Waiting for dormancy convergence.</div>
+    </div>
+</div>
+    
